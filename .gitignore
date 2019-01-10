@@ -1,0 +1,7 @@
+rtos/freertos
+boards/Nitrogen8m/Julia_application/julia_main/iar/ddr_debug
+boards/Nitrogen8m/Julia_application/julia_main/iar/ddr_release
+boards/Nitrogen8m/Julia_application/julia_main/iar/debug
+boards/Nitrogen8m/Julia_application/julia_main/iar/release
+
+

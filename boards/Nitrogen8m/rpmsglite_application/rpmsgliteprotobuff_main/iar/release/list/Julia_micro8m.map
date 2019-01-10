@@ -1,0 +1,653 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  10/Jan/2019  10:47:54
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\Julia_micro8m.out
+#    Map file     =  
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\list\Julia_micro8m.map
+#    Command line =  
+#        -f C:\Users\warri\AppData\Local\Temp\EW3E51.tmp
+#        (C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\board.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\clock_config.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_assert.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_clock.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_common.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_debug_console.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_gpio.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_gpt.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_i2c.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_io.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_log.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_mu.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_pwm.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_rdc.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_str.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\fsl_uart.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\llist.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\main.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\mcu.pb.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\pb_common.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\pb_decode.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\pb_encode.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\pin_mux.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\rpmsg_env_bm.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\rpmsg_lite.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\rpmsg_ns.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\rpmsg_platform.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\rpmsg_queue.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\rpmsgnymble.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\startup_MIMX8MQ6_cm4.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\system_MIMX8MQ6_cm4.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\targetdevice.o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj\virtqueue.o
+#        --no_out_extension -o
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\Julia_micro8m.out
+#        --map
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\list\Julia_micro8m.map
+#        --config
+#        C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar/MIMX8MQ6xxxJZ_cm4_ram.icf
+#        --entry __iar_program_start --inline --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x1ffe'0000 { ro section .intvec };
+"P1":  place in [from 0x1ffe'0000 to 0x1ffe'023f] |
+                [from 0x1ffe'0240 to 0x1fff'ffff] { ro };
+define block RW { rw };
+"P2":  place in [from 0x2000'0000 to 0x2001'fbff] { block RW };
+define block ZI { zi };
+"P3":  place in [from 0x2000'0000 to 0x2001'fbff] { block ZI };
+define block CSTACK with size = 1K, alignment = 8 { };
+"P5":  place in [from 0x2001'fc00 to 0x2001'ffff] { block CSTACK };
+initialize by copy { rw, section .textrw };
+
+No sections matched the following patterns:
+
+  section NonCacheable       in block NCACHE_VAR
+  section NonCacheable.init  in block NCACHE_VAR
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x240
+  .intvec            ro code  0x1ffe'0000   0x240  startup_MIMX8MQ6_cm4.o [1]
+                            - 0x1ffe'0240   0x240
+
+"P1":                                      0x3798
+  .text              ro code  0x1ffe'0240   0xb08  pb_encode.o [1]
+  .text              ro code  0x1ffe'0d48    0xa6  ABImemcpy.o [4]
+  .text              ro code  0x1ffe'0dee    0x3a  zero_init3.o [4]
+  .text              ro code  0x1ffe'0e28     0x6  ABImemclr4.o [4]
+  .text              ro code  0x1ffe'0e2e    0xcc  pb_common.o [1]
+  .rodata            const    0x1ffe'0efa     0x2  clock_config.o [1]
+  .text              ro code  0x1ffe'0efc    0x32  ABImemset48.o [4]
+  .rodata            const    0x1ffe'0f2e     0x2  clock_config.o [1]
+  .text              ro code  0x1ffe'0f30   0x52c  fsl_clock.o [1]
+  .text              ro code  0x1ffe'145c   0x4f0  fsl_uart.o [1]
+  .text              ro code  0x1ffe'194c   0x230  I64DivMod.o [4]
+  .text              ro code  0x1ffe'1b7c     0x2  I64DivZer.o [4]
+  .text              ro code  0x1ffe'1b7e     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'1b80   0x490  rpmsg_lite.o [1]
+  .text              ro code  0x1ffe'2010   0x248  virtqueue.o [1]
+  .text              ro code  0x1ffe'2258   0x1bc  rpmsg_platform.o [1]
+  .text              ro code  0x1ffe'2414   0x100  rpmsg_env_bm.o [1]
+  .text              ro code  0x1ffe'2514    0x2a  llist.o [1]
+  .text              ro code  0x1ffe'253e     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2540    0x4e  fsl_mu.o [1]
+  .text              ro code  0x1ffe'258e     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2590   0x308  system_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2898    0x66  ABImemset.o [4]
+  .text              ro code  0x1ffe'28fe     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2900    0x70  strncpy.o [4]
+  .text              ro code  0x1ffe'2970   0x310  fsl_str.o [1]
+  .text              ro code  0x1ffe'2c80    0x36  strlen.o [4]
+  .text              ro code  0x1ffe'2cb6     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2cb8   0x15c  rpmsgnymble.o [1]
+  .text              ro code  0x1ffe'2e14    0x96  fsl_debug_console.o [1]
+  .text              ro code  0x1ffe'2eaa     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2eac    0xdc  rpmsg_ns.o [1]
+  .text              ro code  0x1ffe'2f88    0x62  fsl_log.o [1]
+  .text              ro code  0x1ffe'2fea     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2fec    0xe4  fsl_io.o [1]
+  .text              ro code  0x1ffe'30d0   0x14c  board.o [1]
+  .text              ro code  0x1ffe'321c   0x108  clock_config.o [1]
+  .text              ro code  0x1ffe'3324    0xc6  targetdevice.o [1]
+  .text              ro code  0x1ffe'33ea     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'33ec    0x9c  pin_mux.o [1]
+  .text              ro code  0x1ffe'3488    0x88  fsl_i2c.o [1]
+  .rodata            const    0x1ffe'3510    0x38  rpmsgnymble.o [1]
+  .text              ro code  0x1ffe'3548    0x2c  copy_init3.o [4]
+  .rodata            const    0x1ffe'3574    0x28  pb_encode.o [1]
+  .text              ro code  0x1ffe'359c    0x28  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'35c4    0x28  data_init.o [4]
+  .text              ro code  0x1ffe'35ec    0x22  fpinit_M.o [3]
+  .iar.init_table    const    0x1ffe'3610    0x24  - Linker created -
+  .text              ro code  0x1ffe'3634    0x20  main.o [1]
+  .text              ro code  0x1ffe'3654     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3658    0x1e  cmain.o [4]
+  .text              ro code  0x1ffe'3676     0x4  exit.o [2]
+  .text              ro code  0x1ffe'367c     0xa  cexit.o [4]
+  .text              ro code  0x1ffe'3688     0xc  XXexit.o [4]
+  .rodata            const    0x1ffe'3694    0x1c  pb_encode.o [1]
+  .rodata            const    0x1ffe'36b0    0x1c  rpmsgnymble.o [1]
+  .rodata            const    0x1ffe'36cc    0x1c  rpmsgnymble.o [1]
+  .rodata            const    0x1ffe'36e8    0x1c  rpmsgnymble.o [1]
+  .rodata            const    0x1ffe'3704    0x1c  targetdevice.o [1]
+  .rodata            const    0x1ffe'3720    0x18  pb_encode.o [1]
+  .rodata            const    0x1ffe'3738    0x18  pb_encode.o [1]
+  .rodata            const    0x1ffe'3750    0x18  rpmsgnymble.o [1]
+  .rodata            const    0x1ffe'3768    0x14  fsl_uart.o [1]
+  .rodata            const    0x1ffe'377c    0x14  fsl_uart.o [1]
+  .rodata            const    0x1ffe'3790    0x14  mcu.pb.o [1]
+  .rodata            const    0x1ffe'37a4    0x14  mcu.pb.o [1]
+  .rodata            const    0x1ffe'37b8    0x14  pb_encode.o [1]
+  .rodata            const    0x1ffe'37cc    0x14  pb_encode.o [1]
+  .rodata            const    0x1ffe'37e0    0x14  pb_encode.o [1]
+  .rodata            const    0x1ffe'37f4    0x14  pb_encode.o [1]
+  .rodata            const    0x1ffe'3808    0x14  rpmsgnymble.o [1]
+  .rodata            const    0x1ffe'381c    0x10  clock_config.o [1]
+  .rodata            const    0x1ffe'382c    0x10  clock_config.o [1]
+  .rodata            const    0x1ffe'383c    0x10  clock_config.o [1]
+  .rodata            const    0x1ffe'384c    0x10  pb_encode.o [1]
+  .rodata            const    0x1ffe'385c    0x10  rpmsg_lite.o [1]
+  .rodata            const    0x1ffe'386c    0x10  rpmsgnymble.o [1]
+  .rodata            const    0x1ffe'387c     0xc  clock_config.o [1]
+  .rodata            const    0x1ffe'3888     0xc  clock_config.o [1]
+  .rodata            const    0x1ffe'3894     0xc  clock_config.o [1]
+  .rodata            const    0x1ffe'38a0     0xc  pb_encode.o [1]
+  .rodata            const    0x1ffe'38ac     0xc  pb_encode.o [1]
+  .text              ro code  0x1ffe'38b8     0xc  cstartup_M.o [4]
+  Initializer bytes  const    0x1ffe'38c4     0xc  <for RW-1>
+  .rodata            const    0x1ffe'38d0     0x8  rpmsg_lite.o [1]
+  .rodata            const    0x1ffe'38d8     0x8  rpmsg_lite.o [1]
+  .text              ro code  0x1ffe'38e0     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'38e8     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'38f0     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'38f8     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3900     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3908     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3910     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3918     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3920     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3928     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3930     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3938     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3940     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3948     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3950     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3958     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3960     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3968     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3970     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3978     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3980     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3988     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3990     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'3998     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'39a0     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'39a8     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'39b0     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'39b8     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'39c0     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .rodata            const    0x1ffe'39c8     0x4  board.o [1]
+  .rodata            const    0x1ffe'39cc     0x4  fsl_mu.o [1]
+  .rodata            const    0x1ffe'39d0     0x4  fsl_mu.o [1]
+  .text              ro code  0x1ffe'39d4     0x4  startup_MIMX8MQ6_cm4.o [1]
+  .rodata            const    0x1ffe'39d8     0x0  zero_init3.o [4]
+  .rodata            const    0x1ffe'39d8     0x0  copy_init3.o [4]
+                            - 0x1ffe'39d8  0x3798
+
+"P2-P3", part 1 of 2:                         0xc
+  RW                          0x2000'0000     0xc  <Block>
+    RW-1                      0x2000'0000     0xc  <Init block>
+      .data          inited   0x2000'0000     0x4  system_MIMX8MQ6_cm4.o [1]
+      .data          inited   0x2000'0004     0x8  targetdevice.o [1]
+                            - 0x2000'000c     0xc
+
+"P2-P3", part 2 of 2:                       0x1d0
+  ZI                          0x2000'000c   0x1d0  <Block>
+    .bss             zero     0x2000'000c    0x14  fsl_i2c.o [1]
+    .bss             zero     0x2000'0020     0x4  fsl_i2c.o [1]
+    .bss             zero     0x2000'0024     0x4  fsl_i2c.o [1]
+    .bss             zero     0x2000'0028     0x8  fsl_io.o [1]
+    .bss             zero     0x2000'0030    0x10  fsl_uart.o [1]
+    .bss             zero     0x2000'0040     0x4  fsl_uart.o [1]
+    .bss             zero     0x2000'0044     0x4  rpmsg_env_bm.o [1]
+    .bss             zero     0x2000'0048    0x30  rpmsg_env_bm.o [1]
+    .bss             zero     0x2000'0078     0x4  rpmsg_platform.o [1]
+    .bss             zero     0x2000'007c     0x4  rpmsg_platform.o [1]
+    .bss             zero     0x2000'0080     0x4  rpmsg_platform.o [1]
+    .bss             zero     0x2000'0084     0x4  rpmsgnymble.o [1]
+    .bss             zero     0x2000'0088     0x4  rpmsgnymble.o [1]
+    .bss             zero     0x2000'008c    0x20  rpmsgnymble.o [1]
+    .bss             zero     0x2000'00ac    0x30  rpmsgnymble.o [1]
+    .bss             zero     0x2000'00dc     0x4  rpmsgnymble.o [1]
+    .bss             zero     0x2000'00e0    0xf4  rpmsgnymble.o [1]
+    .bss             zero     0x2000'01d4     0x4  rpmsgnymble.o [1]
+    .bss             zero     0x2000'01d8     0x1  rpmsgnymble.o [1]
+    .bss             zero     0x2000'01d9     0x1  rpmsgnymble.o [1]
+    .bss             zero     0x2000'01da     0x1  rpmsgnymble.o [1]
+                            - 0x2000'01dc   0x1d0
+
+"P5":                                       0x400
+  CSTACK                      0x2001'fc00   0x400  <Block>
+    CSTACK           uninit   0x2001'fc00   0x400  <Block tail>
+                            - 0x2002'0000   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+  0x1ffe'39d8  0x1fff'ffff  0x1'c628
+  0x2000'01dc  0x2001'fbff  0x1'fa24
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1cf:
+          0x2000'000c  0x1cf
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc:
+          0x1ffe'38c4    0xc
+    1 destination range, total size 0xc:
+          0x2000'0000    0xc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj: [1]
+    board.o                     332        4
+    clock_config.o              264       88
+    fsl_clock.o               1 324
+    fsl_debug_console.o         150
+    fsl_i2c.o                   136                28
+    fsl_io.o                    228                 8
+    fsl_log.o                    98
+    fsl_mu.o                     78        8
+    fsl_str.o                   784
+    fsl_uart.o                1 264       40       20
+    llist.o                      42
+    main.o                       32
+    mcu.pb.o                              40
+    pb_common.o                 204
+    pb_encode.o               2 824      236
+    pin_mux.o                   156
+    rpmsg_env_bm.o              256                52
+    rpmsg_lite.o              1 168       32
+    rpmsg_ns.o                  220
+    rpmsg_platform.o            444                12
+    rpmsgnymble.o               348      200      343
+    startup_MIMX8MQ6_cm4.o      870
+    system_MIMX8MQ6_cm4.o       776        4        4
+    targetdevice.o              198       36        8
+    virtqueue.o                 584
+    -------------------------------------------------
+    Total:                   12 780      688      475
+
+dl7M_tln.a: [2]
+    exit.o                        4
+    -------------------------------------------------
+    Total:                        4
+
+m7M_tls.a: [3]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [4]
+    ABImemclr4.o                  6
+    ABImemcpy.o                 166
+    ABImemset.o                 102
+    ABImemset48.o                50
+    I64DivMod.o                 560
+    I64DivZer.o                   2
+    XXexit.o                     12
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 44
+    cstartup_M.o                 12
+    data_init.o                  40
+    strlen.o                     54
+    strncpy.o                   112
+    zero_init3.o                 58
+    -------------------------------------------------
+    Total:                    1 258
+
+    Gaps                          6        2
+    Linker created                        36    1 024
+-----------------------------------------------------
+    Grand Total:             14 082      726    1 499
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base   0x1ffe'3610          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x1ffe'3634          --   Gb  - Linker created -
+?main                   0x1ffe'3659         Code  Gb  cmain.o [4]
+BOARD_BootClockRUN      0x1ffe'322f   0xbe  Code  Gb  clock_config.o [1]
+BOARD_InitDebugConsole  0x1ffe'30ed   0x12  Code  Gb  board.o [1]
+BOARD_InitMemory        0x1ffe'30ff   0x60  Code  Gb  board.o [1]
+BOARD_InitPins          0x1ffe'341d   0x56  Code  Gb  pin_mux.o [1]
+BOARD_RdcInit           0x1ffe'315f   0x62  Code  Gb  board.o [1]
+CLOCK_ControlGate       0x1ffe'30d1    0x8  Code  Lc  board.o [1]
+CLOCK_DeinitAudioPll1   0x1ffe'1069    0xe  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitAudioPll2   0x1ffe'10b1   0x10  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitSysPll3     0x1ffe'11dd   0x10  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitVedioPll1   0x1ffe'10fb   0x10  Code  Gb  fsl_clock.o [1]
+CLOCK_EnableAnalogClock
+                        0x1ffe'0f95   0x1c  Code  Lc  fsl_clock.o [1]
+CLOCK_EnableClock       0x1ffe'13b1   0x34  Code  Gb  fsl_clock.o [1]
+CLOCK_GetPllRefClkFreq  0x1ffe'0fb1   0x86  Code  Gb  fsl_clock.o [1]
+CLOCK_InitAudioPll1     0x1ffe'1037   0x32  Code  Gb  fsl_clock.o [1]
+CLOCK_InitAudioPll2     0x1ffe'1077   0x3a  Code  Gb  fsl_clock.o [1]
+CLOCK_InitFracPll       0x1ffe'11ed   0x96  Code  Gb  fsl_clock.o [1]
+CLOCK_InitOSC25M        0x1ffe'1351   0x2a  Code  Gb  fsl_clock.o [1]
+CLOCK_InitOSC27M        0x1ffe'137b   0x2a  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSSCGPll       0x1ffe'1283   0xae  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSysPll1       0x1ffe'110b   0x46  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSysPll2       0x1ffe'1151   0x46  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSysPll3       0x1ffe'1197   0x46  Code  Gb  fsl_clock.o [1]
+CLOCK_InitVideoPll1     0x1ffe'10c1   0x3a  Code  Gb  fsl_clock.o [1]
+CLOCK_IsPllLocked       0x1ffe'0f89    0xc  Code  Lc  fsl_clock.o [1]
+CLOCK_PowerDownPll      0x1ffe'0f31   0x1c  Code  Lc  fsl_clock.o [1]
+CLOCK_SetPllBypass      0x1ffe'0f4d   0x3c  Code  Lc  fsl_clock.o [1]
+CLOCK_SetRootDivider    0x1ffe'1331   0x20  Code  Gb  fsl_clock.o [1]
+CLOCK_SetRootMux        0x1ffe'321d   0x12  Code  Lc  clock_config.o [1]
+CSTACK$$Base            0x2001'fc00          --   Gb  - Linker created -
+CSTACK$$Limit           0x2002'0000          --   Gb  - Linker created -
+ConvertRadixNumToString
+                        0x1ffe'2971   0xc0  Code  Lc  fsl_str.o [1]
+DbgConsole_Init         0x1ffe'2e15   0x1a  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Printf       0x1ffe'2e2f   0x3c  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_RelocateLog  0x1ffe'2e6d   0x3e  Code  Lc  fsl_debug_console.o [1]
+GetFracPllFreq          0x1ffe'25e5   0xd2  Code  Gb  system_MIMX8MQ6_cm4.o [1]
+GetSSCGPllFreq          0x1ffe'26b7  0x10e  Code  Gb  system_MIMX8MQ6_cm4.o [1]
+I2C1_DriverIRQHandler   0x1ffe'34bb    0xe  Code  Gb  fsl_i2c.o [1]
+I2C2_DriverIRQHandler   0x1ffe'34c9    0xe  Code  Gb  fsl_i2c.o [1]
+I2C3_DriverIRQHandler   0x1ffe'34d7    0xe  Code  Gb  fsl_i2c.o [1]
+I2C4_DriverIRQHandler   0x1ffe'34e5    0xe  Code  Gb  fsl_i2c.o [1]
+I2C_TransferCommonIRQHandler
+                        0x1ffe'3489   0x32  Code  Lc  fsl_i2c.o [1]
+IOMUXC_SetPinConfig     0x1ffe'340d   0x10  Code  Lc  pin_mux.o [1]
+IOMUXC_SetPinMux        0x1ffe'33ed   0x20  Code  Lc  pin_mux.o [1]
+IO_Init                 0x1ffe'3035   0x56  Code  Gb  fsl_io.o [1]
+IO_Transfer             0x1ffe'308b   0x40  Code  Gb  fsl_io.o [1]
+LOG_Init                0x1ffe'2f89   0x20  Code  Gb  fsl_log.o [1]
+LOG_Pop                 0x1ffe'2fb9   0x32  Code  Gb  fsl_log.o [1]
+LOG_Push                0x1ffe'2fa9   0x10  Code  Gb  fsl_log.o [1]
+MU_EnableInterrupts     0x1ffe'22d9    0xc  Code  Lc  rpmsg_platform.o [1]
+MU_GetInstance          0x1ffe'2541   0x18  Code  Lc  fsl_mu.o [1]
+MU_GetStatusFlags       0x1ffe'22d1    0x8  Code  Lc  rpmsg_platform.o [1]
+MU_Init                 0x1ffe'2559   0x16  Code  Gb  fsl_mu.o [1]
+MU_M4_IRQHandler        0x1ffe'233d   0x24  Code  Gb  rpmsg_platform.o [1]
+MU_ReceiveMsgNonBlocking
+                        0x1ffe'22c9    0x8  Code  Lc  rpmsg_platform.o [1]
+MU_SendMsg              0x1ffe'2579   0x16  Code  Gb  fsl_mu.o [1]
+McuCommitId_fields      0x1ffe'3790   0x14  Data  Gb  mcu.pb.o [1]
+McuMpuMessage_fields    0x1ffe'37a4   0x14  Data  Gb  mcu.pb.o [1]
+Mpu_packet_pack_send    0x1ffe'3325   0x2a  Code  Lc  targetdevice.o [1]
+Mpu_packet_send         0x1ffe'334f   0x72  Code  Gb  targetdevice.o [1]
+PB_ENCODERS             0x1ffe'3574   0x28  Data  Lc  pb_encode.o [1]
+RDC_SetMasterDomainAssignment
+                        0x1ffe'30d9   0x14  Code  Lc  board.o [1]
+RW$$Base                0x2000'0000          --   Gb  - Linker created -
+RW$$Limit               0x2000'000c          --   Gb  - Linker created -
+Region$$Table$$Base     0x1ffe'3610          --   Gb  - Linker created -
+Region$$Table$$Limit    0x1ffe'3634          --   Gb  - Linker created -
+StrFormatPrintf         0x1ffe'2a31  0x250  Code  Gb  fsl_str.o [1]
+SystemCoreClock         0x2000'0000    0x4  Data  Gb  system_MIMX8MQ6_cm4.o [1]
+SystemCoreClockUpdate   0x1ffe'27c5   0xa2  Code  Gb  system_MIMX8MQ6_cm4.o [1]
+SystemInit              0x1ffe'2591   0x54  Code  Gb  system_MIMX8MQ6_cm4.o [1]
+UART1_DriverIRQHandler  0x1ffe'18d1   0x14  Code  Gb  fsl_uart.o [1]
+UART2_DriverIRQHandler  0x1ffe'18e5   0x14  Code  Gb  fsl_uart.o [1]
+UART3_DriverIRQHandler  0x1ffe'18f9   0x14  Code  Gb  fsl_uart.o [1]
+UART4_DriverIRQHandler  0x1ffe'190d   0x14  Code  Gb  fsl_uart.o [1]
+UART_ClearStatusFlag    0x1ffe'1819   0x1a  Code  Gb  fsl_uart.o [1]
+UART_Disable            0x1ffe'1481    0xe  Code  Lc  fsl_uart.o [1]
+UART_Enable             0x1ffe'1473    0xe  Code  Lc  fsl_uart.o [1]
+UART_EnableAutoBaudRate
+                        0x1ffe'14cf   0x30  Code  Lc  fsl_uart.o [1]
+UART_EnableRx           0x1ffe'3011   0x24  Code  Lc  fsl_io.o [1]
+UART_EnableTx           0x1ffe'2fed   0x24  Code  Lc  fsl_io.o [1]
+UART_GetDefaultConfig   0x1ffe'1619   0x28  Code  Gb  fsl_uart.o [1]
+UART_GetInstance        0x1ffe'14ff   0x1c  Code  Gb  fsl_uart.o [1]
+UART_Init               0x1ffe'151b   0xfe  Code  Gb  fsl_uart.o [1]
+UART_ReadBlocking       0x1ffe'1859   0x70  Code  Gb  fsl_uart.o [1]
+UART_ReadByte           0x1ffe'1497    0x6  Code  Lc  fsl_uart.o [1]
+UART_SetBaudRate        0x1ffe'1641  0x1d8  Code  Gb  fsl_uart.o [1]
+UART_SetRxFifoWatermark
+                        0x1ffe'14b7   0x18  Code  Lc  fsl_uart.o [1]
+UART_SetTxFifoWatermark
+                        0x1ffe'149d   0x1a  Code  Lc  fsl_uart.o [1]
+UART_SoftwareReset      0x1ffe'145d   0x16  Code  Lc  fsl_uart.o [1]
+UART_WriteBlocking      0x1ffe'1833   0x26  Code  Gb  fsl_uart.o [1]
+UART_WriteByte          0x1ffe'148f    0x8  Code  Lc  fsl_uart.o [1]
+ZI$$Base                0x2000'000c          --   Gb  - Linker created -
+ZI$$Limit               0x2000'01dc          --   Gb  - Linker created -
+__CACHE_REGION_SIZE {Abs}
+                                0x0         Data  Gb  <internal module>
+__CACHE_REGION_START {Abs}
+                        0x1ffe'0000         Data  Gb  <internal module>
+__NVIC_DisableIRQ       0x1ffe'2277   0x26  Code  Lc  rpmsg_platform.o [1]
+__NVIC_EnableIRQ        0x1ffe'2259   0x1e  Code  Lc  rpmsg_platform.o [1]
+__NVIC_SetPriority      0x1ffe'229d   0x2c  Code  Lc  rpmsg_platform.o [1]
+__Vectors               0x1ffe'0000          --   Gb  startup_MIMX8MQ6_cm4.o [1]
+__Vectors_End           0x1ffe'0240         Data  Gb  startup_MIMX8MQ6_cm4.o [1]
+__Vectors_Size {Abs}          0x240          --   Gb  startup_MIMX8MQ6_cm4.o [1]
+__aeabi_ldiv0           0x1ffe'1b7d         Code  Gb  I64DivZer.o [4]
+__aeabi_memclr4         0x1ffe'0e29         Code  Gb  ABImemclr4.o [4]
+__aeabi_memcpy          0x1ffe'0d49         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4         0x1ffe'0d69         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8         0x1ffe'0d69         Code  Gb  ABImemcpy.o [4]
+__aeabi_memset          0x1ffe'2899         Code  Gb  ABImemset.o [4]
+__aeabi_uldivmod        0x1ffe'194d         Code  Gb  I64DivMod.o [4]
+__cmain                 0x1ffe'3659         Code  Gb  cmain.o [4]
+__exit                  0x1ffe'3689         Code  Gb  XXexit.o [4]
+__iar_Memset            0x1ffe'2899         Code  Gb  ABImemset.o [4]
+__iar_Memset4_word      0x1ffe'0efd         Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word      0x1ffe'0efd         Code  Gb  ABImemset48.o [4]
+__iar_Memset_word       0x1ffe'28a1         Code  Gb  ABImemset.o [4]
+__iar_copy_init3        0x1ffe'3549   0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x1ffe'35c5   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp          0x1ffe'35ed         Code  Gb  fpinit_M.o [3]
+__iar_program_start     0x1ffe'38b9         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x1ffe'0def   0x3a  Code  Gb  zero_init3.o [4]
+__vector_table          0x1ffe'0000         Data  Gb  startup_MIMX8MQ6_cm4.o [1]
+__vector_table_0x1c     0x1ffe'001c         Data  Gb  startup_MIMX8MQ6_cm4.o [1]
+_call_main              0x1ffe'3665         Code  Gb  cmain.o [4]
+_exit                   0x1ffe'367d         Code  Gb  cexit.o [4]
+_main                   0x1ffe'3673         Code  Gb  cmain.o [4]
+add_to_list             0x1ffe'2515   0x2a  Code  Gb  llist.o [1]
+app_nameservice_isr_cb  0x1ffe'2cb9   0x12  Code  Gb  rpmsgnymble.o [1]
+buf_write               0x1ffe'0241   0x20  Code  Lc  pb_encode.o [1]
+commit_id_info_mcu      0x2000'0004    0x8  Data  Gb  targetdevice.o [1]
+default_extension_encoder
+                        0x1ffe'0769   0x2c  Code  Lc  pb_encode.o [1]
+disable_counter         0x2000'007c    0x4  Data  Lc  rpmsg_platform.o [1]
+encode_array            0x1ffe'02df  0x166  Code  Lc  pb_encode.o [1]
+encode_basic_field      0x1ffe'057f  0x164  Code  Lc  pb_encode.o [1]
+encode_callback_field   0x1ffe'06e3   0x3e  Code  Lc  pb_encode.o [1]
+encode_extension_field  0x1ffe'0795   0x42  Code  Lc  pb_encode.o [1]
+encode_field            0x1ffe'0721   0x48  Code  Lc  pb_encode.o [1]
+env_create_mutex        0x1ffe'24b9    0x8  Code  Gb  rpmsg_env_bm.o [1]
+env_disable_interrupt   0x1ffe'24e5    0xc  Code  Gb  rpmsg_env_bm.o [1]
+env_enable_interrupt    0x1ffe'24d9    0xc  Code  Gb  rpmsg_env_bm.o [1]
+env_init                0x1ffe'2415   0x36  Code  Gb  rpmsg_env_bm.o [1]
+env_init_counter        0x2000'0044    0x4  Data  Lc  rpmsg_env_bm.o [1]
+env_isr                 0x1ffe'24f1   0x18  Code  Gb  rpmsg_env_bm.o [1]
+env_map_patova          0x1ffe'24ad    0xc  Code  Gb  rpmsg_env_bm.o [1]
+env_mb                  0x1ffe'249b    0x6  Code  Gb  rpmsg_env_bm.o [1]
+env_memcpy              0x1ffe'2469   0x1e  Code  Gb  rpmsg_env_bm.o [1]
+env_memset              0x1ffe'244b   0x1e  Code  Gb  rpmsg_env_bm.o [1]
+env_register_isr        0x1ffe'24cd    0xc  Code  Gb  rpmsg_env_bm.o [1]
+env_rmb                 0x1ffe'24a1    0x6  Code  Gb  rpmsg_env_bm.o [1]
+env_sleep_msec          0x1ffe'24c1    0xc  Code  Gb  rpmsg_env_bm.o [1]
+env_strncpy             0x1ffe'2487   0x14  Code  Gb  rpmsg_env_bm.o [1]
+env_wmb                 0x1ffe'24a7    0x6  Code  Gb  rpmsg_env_bm.o [1]
+exit                    0x1ffe'3677    0x4  Code  Gb  exit.o [2]
+g_audioPll1Config       0x1ffe'387c    0xc  Data  Gb  clock_config.o [1]
+g_audioPll2Config       0x1ffe'3888    0xc  Data  Gb  clock_config.o [1]
+g_osc25MConfig          0x1ffe'0f2e    0x2  Data  Gb  clock_config.o [1]
+g_osc27MConfig          0x1ffe'0efa    0x2  Data  Gb  clock_config.o [1]
+g_sysPll1Config         0x1ffe'381c   0x10  Data  Gb  clock_config.o [1]
+g_sysPll2Config         0x1ffe'382c   0x10  Data  Gb  clock_config.o [1]
+g_sysPll3Config         0x1ffe'383c   0x10  Data  Gb  clock_config.o [1]
+g_videoPll1Config       0x1ffe'3894    0xc  Data  Gb  clock_config.o [1]
+handshake_hello_linux_bootup_message
+                        0x2000'01d8    0x1  Data  Gb  rpmsgnymble.o [1]
+has_received            0x2000'0088    0x4  Data  Gb  rpmsgnymble.o [1]
+isr_counter             0x2000'0078    0x4  Data  Lc  rpmsg_platform.o [1]
+isr_table               0x2000'0048   0x30  Data  Lc  rpmsg_env_bm.o [1]
+lock                    0x2000'0080    0x4  Data  Lc  rpmsg_platform.o [1]
+main                    0x1ffe'3635   0x20  Code  Gb  main.o [1]
+msg_rx                  0x2000'01d9    0x1  Data  Gb  rpmsgnymble.o [1]
+msg_tx                  0x2000'01da    0x1  Data  Gb  rpmsgnymble.o [1]
+my_ept                  0x2000'00dc    0x4  Data  Gb  rpmsgnymble.o [1]
+my_ept_context          0x2000'008c   0x20  Data  Gb  rpmsgnymble.o [1]
+my_ept_read_cb          0x1ffe'2ccb   0x54  Code  Lc  rpmsgnymble.o [1]
+my_ns_context           0x2000'00ac   0x30  Data  Gb  rpmsgnymble.o [1]
+my_rpmsg                0x2000'01d4    0x4  Data  Gb  rpmsgnymble.o [1]
+pb_check_proto3_default_value
+                        0x1ffe'0445  0x13a  Code  Lc  pb_encode.o [1]
+pb_const_cast           0x1ffe'07d7    0x6  Code  Lc  pb_encode.o [1]
+pb_enc_bytes            0x1ffe'0c37   0x4c  Code  Lc  pb_encode.o [1]
+pb_enc_fixed32          0x1ffe'0c25   0x12  Code  Lc  pb_encode.o [1]
+pb_enc_fixed64          0x1ffe'0c13   0x12  Code  Lc  pb_encode.o [1]
+pb_enc_fixed_length_bytes
+                        0x1ffe'0d35   0x14  Code  Lc  pb_encode.o [1]
+pb_enc_string           0x1ffe'0c83   0x4e  Code  Lc  pb_encode.o [1]
+pb_enc_submessage       0x1ffe'0cd1   0x30  Code  Lc  pb_encode.o [1]
+pb_enc_svarint          0x1ffe'0baf   0x64  Code  Lc  pb_encode.o [1]
+pb_enc_uvarint          0x1ffe'0b4b   0x64  Code  Lc  pb_encode.o [1]
+pb_enc_varint           0x1ffe'0ae7   0x64  Code  Lc  pb_encode.o [1]
+pb_encode               0x1ffe'07dd   0x62  Code  Gb  pb_encode.o [1]
+pb_encode_fixed32       0x1ffe'08ef   0x32  Code  Gb  pb_encode.o [1]
+pb_encode_fixed64       0x1ffe'0921   0x60  Code  Gb  pb_encode.o [1]
+pb_encode_string        0x1ffe'0a0d   0x26  Code  Gb  pb_encode.o [1]
+pb_encode_submessage    0x1ffe'0a33   0xb4  Code  Gb  pb_encode.o [1]
+pb_encode_svarint       0x1ffe'08ab   0x44  Code  Gb  pb_encode.o [1]
+pb_encode_tag           0x1ffe'0981   0x32  Code  Gb  pb_encode.o [1]
+pb_encode_tag_for_field
+                        0x1ffe'09b3   0x5a  Code  Gb  pb_encode.o [1]
+pb_encode_varint        0x1ffe'083f   0x6c  Code  Gb  pb_encode.o [1]
+pb_field_iter_begin     0x1ffe'0e2f   0x34  Code  Gb  pb_common.o [1]
+pb_field_iter_next      0x1ffe'0e63   0x98  Code  Gb  pb_common.o [1]
+pb_ostream_from_buffer  0x1ffe'0261   0x26  Code  Gb  pb_encode.o [1]
+pb_write                0x1ffe'0287   0x58  Code  Gb  pb_encode.o [1]
+platform_init           0x1ffe'23c9   0x22  Code  Gb  rpmsg_platform.o [1]
+platform_init_interrupt
+                        0x1ffe'22e5   0x38  Code  Gb  rpmsg_platform.o [1]
+platform_interrupt_disable
+                        0x1ffe'23a9   0x20  Code  Gb  rpmsg_platform.o [1]
+platform_interrupt_enable
+                        0x1ffe'2389   0x20  Code  Gb  rpmsg_platform.o [1]
+platform_notify         0x1ffe'231d   0x20  Code  Gb  rpmsg_platform.o [1]
+platform_time_delay     0x1ffe'2361   0x28  Code  Gb  rpmsg_platform.o [1]
+remote_addr             0x2000'0084    0x4  Data  Gb  rpmsgnymble.o [1]
+remote_vq_ops           0x1ffe'385c   0x10  Data  Lc  rpmsg_lite.o [1]
+rpmsg_config            0x1ffe'2d1f   0x64  Code  Gb  rpmsgnymble.o [1]
+rpmsg_ctxt              0x2000'00e0   0xf4  Data  Gb  rpmsgnymble.o [1]
+rpmsg_lite_create_ept   0x1ffe'1ca9   0xac  Code  Gb  rpmsg_lite.o [1]
+rpmsg_lite_format_message
+                        0x1ffe'1d63   0xec  Code  Gb  rpmsg_lite.o [1]
+rpmsg_lite_get_endpoint_from_addr
+                        0x1ffe'1b81   0x20  Code  Gb  rpmsg_lite.o [1]
+rpmsg_lite_is_link_up   0x1ffe'1d55    0xe  Code  Gb  rpmsg_lite.o [1]
+rpmsg_lite_remote_init  0x1ffe'1e97  0x150  Code  Gb  rpmsg_lite.o [1]
+rpmsg_lite_rx_callback  0x1ffe'1ba1   0x88  Code  Lc  rpmsg_lite.o [1]
+rpmsg_lite_send         0x1ffe'1e4f   0x48  Code  Gb  rpmsg_lite.o [1]
+rpmsg_lite_tx_callback  0x1ffe'1c29    0xe  Code  Lc  rpmsg_lite.o [1]
+rpmsg_ns_announce       0x1ffe'2f33   0x4a  Code  Gb  rpmsg_ns.o [1]
+rpmsg_ns_bind           0x1ffe'2eeb   0x48  Code  Gb  rpmsg_ns.o [1]
+rpmsg_ns_rx_cb          0x1ffe'2ead   0x3e  Code  Gb  rpmsg_ns.o [1]
+rpmsg_send              0x1ffe'2d83   0x44  Code  Gb  rpmsgnymble.o [1]
+s_debugConsoleIO        0x2000'0028    0x8  Data  Lc  fsl_io.o [1]
+s_i2cHandle             0x2000'000c   0x14  Data  Lc  fsl_i2c.o [1]
+s_i2cMasterIsr          0x2000'0020    0x4  Data  Lc  fsl_i2c.o [1]
+s_i2cSlaveIsr           0x2000'0024    0x4  Data  Lc  fsl_i2c.o [1]
+s_muBases               0x1ffe'39d0    0x4  Data  Lc  fsl_mu.o [1]
+s_muClocks              0x1ffe'39cc    0x4  Data  Lc  fsl_mu.o [1]
+s_uartBases             0x1ffe'3768   0x14  Data  Lc  fsl_uart.o [1]
+s_uartClock             0x1ffe'377c   0x14  Data  Lc  fsl_uart.o [1]
+s_uartHandle            0x2000'0030   0x10  Data  Lc  fsl_uart.o [1]
+s_uartIsr               0x2000'0040    0x4  Data  Lc  fsl_uart.o [1]
+send_commit_info        0x1ffe'33cd   0x1e  Code  Gb  targetdevice.o [1]
+strlen                  0x1ffe'2c81         Code  Gb  strlen.o [4]
+strncpy                 0x1ffe'2901         Code  Gb  strncpy.o [4]
+virtqueue_add_consumed_buffer
+                        0x1ffe'2151   0x28  Code  Gb  virtqueue.o [1]
+virtqueue_create_static
+                        0x1ffe'2065   0x88  Code  Gb  virtqueue.o [1]
+virtqueue_get_available_buffer
+                        0x1ffe'20ed   0x64  Code  Gb  virtqueue.o [1]
+virtqueue_kick          0x1ffe'2179   0x20  Code  Gb  virtqueue.o [1]
+virtqueue_notification  0x1ffe'21e5   0x16  Code  Gb  virtqueue.o [1]
+virtqueue_notify        0x1ffe'1c9b    0xe  Code  Gb  rpmsg_lite.o [1]
+vq_ring_must_notify_host
+                        0x1ffe'21fb   0x4c  Code  Lc  virtqueue.o [1]
+vq_ring_notify_host     0x1ffe'2247   0x12  Code  Lc  virtqueue.o [1]
+vq_ring_update_used     0x1ffe'219d   0x48  Code  Lc  virtqueue.o [1]
+vq_rx_free_remote       0x1ffe'1c7d   0x1e  Code  Lc  rpmsg_lite.o [1]
+vq_rx_remote            0x1ffe'1c69   0x14  Code  Lc  rpmsg_lite.o [1]
+vq_tx_alloc_remote      0x1ffe'1c55   0x14  Code  Lc  rpmsg_lite.o [1]
+vq_tx_remote            0x1ffe'1c37   0x1e  Code  Lc  rpmsg_lite.o [1]
+vring_init              0x1ffe'202b   0x22  Code  Lc  virtqueue.o [1]
+vring_need_event        0x1ffe'204d   0x18  Code  Lc  virtqueue.o [1]
+vring_size              0x1ffe'2011   0x1a  Code  Lc  virtqueue.o [1]
+
+
+[1] = C:\Users\warri\Desktop\Workspace_Nymble\RpmsgliteNanoPb\nanopbprotobuff\boards\Nitrogen8m\rpmsglite_application\rpmsgliteprotobuff_main\iar\release\obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+
+  14 082 bytes of readonly  code memory
+     726 bytes of readonly  data memory
+   1 499 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

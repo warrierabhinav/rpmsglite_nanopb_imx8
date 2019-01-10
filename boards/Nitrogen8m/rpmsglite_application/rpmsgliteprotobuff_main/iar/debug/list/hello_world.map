@@ -1,0 +1,455 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  09/Nov/2018  17:22:12
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\hello_world.out
+#    Map file     =  
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\list\hello_world.map
+#    Command line =  
+#        -f C:\Users\warri\AppData\Local\Temp\EWD934.tmp
+#        (C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\board.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\clock_config.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\fsl_assert.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\fsl_clock.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\fsl_common.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\fsl_debug_console.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\fsl_io.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\fsl_log.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\fsl_rdc.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\fsl_str.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\fsl_uart.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\julia_main.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\pin_mux.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\startup_MIMX8MQ6_cm4.o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj\system_MIMX8MQ6_cm4.o
+#        --redirect _Printf=_PrintfSmallNoMb --redirect _Scanf=_ScanfSmallNoMb
+#        --no_out_extension -o
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\hello_world.out
+#        --map
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\list\hello_world.map
+#        --config
+#        C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar/MIMX8MQ6xxxJZ_cm4_ram.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x1ffe'0000 { ro section .intvec };
+"P1":  place in [from 0x1ffe'0000 to 0x1ffe'023f] |
+                [from 0x1ffe'0240 to 0x1fff'ffff] { ro };
+define block RW { rw };
+"P2":  place in [from 0x2000'0000 to 0x2001'fbff] { block RW };
+define block ZI { zi };
+"P3":  place in [from 0x2000'0000 to 0x2001'fbff] { block ZI };
+define block CSTACK with size = 1K, alignment = 8 { };
+"P5":  place in [from 0x2001'fc00 to 0x2001'ffff] { block CSTACK };
+initialize by copy { rw, section .textrw };
+
+No sections matched the following patterns:
+
+  section NonCacheable       in block NCACHE_VAR
+  section NonCacheable.init  in block NCACHE_VAR
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x240
+  .intvec            ro code  0x1ffe'0000   0x240  startup_MIMX8MQ6_cm4.o [1]
+                            - 0x1ffe'0240   0x240
+
+"P1":                                      0x2598
+  .text              ro code  0x1ffe'0240   0x7c0  fsl_clock.o [1]
+  .text              ro code  0x1ffe'0a00    0x1c  fsl_assert.o [1]
+  .text              ro code  0x1ffe'0a1c    0xce  fsl_debug_console.o [1]
+  .text              ro code  0x1ffe'0aea    0x3a  zero_init3.o [3]
+  .text              ro code  0x1ffe'0b24    0xce  fsl_log.o [1]
+  .rodata            const    0x1ffe'0bf2     0x2  clock_config.o [1]
+  .text              ro code  0x1ffe'0bf4     0x6  ABImemclr4.o [3]
+  .text              ro code  0x1ffe'0bfa   0x310  fsl_str.o [1]
+  .rodata            const    0x1ffe'0f0a     0x2  clock_config.o [1]
+  .text              ro code  0x1ffe'0f0c    0xfc  fsl_io.o [1]
+  .text              ro code  0x1ffe'1008    0x32  ABImemset48.o [3]
+  .text              ro code  0x1ffe'103a     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'103c    0x36  strlen.o [3]
+  .text              ro code  0x1ffe'1072     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'1074   0x5dc  fsl_uart.o [1]
+  .text              ro code  0x1ffe'1650   0x230  I64DivMod.o [3]
+  .text              ro code  0x1ffe'1880     0x2  I64DivZer.o [3]
+  .text              ro code  0x1ffe'1882     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'1884   0x2f8  system_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'1b7c   0x1f0  board.o [1]
+  .text              ro code  0x1ffe'1d6c   0x108  clock_config.o [1]
+  .text              ro code  0x1ffe'1e74    0x9c  pin_mux.o [1]
+  .rodata            const    0x1ffe'1f10    0x98  board.o [1]
+  .rodata            const    0x1ffe'1fa8    0x6c  board.o [1]
+  .rodata            const    0x1ffe'2014    0x6c  fsl_debug_console.o [1]
+  .rodata            const    0x1ffe'2080    0x64  fsl_io.o [1]
+  .rodata            const    0x1ffe'20e4    0x64  fsl_log.o [1]
+  .rodata            const    0x1ffe'2148    0x60  fsl_clock.o [1]
+  .rodata            const    0x1ffe'21a8    0x60  fsl_uart.o [1]
+  .rodata            const    0x1ffe'2208    0x60  fsl_uart.o [1]
+  .rodata            const    0x1ffe'2268    0x38  fsl_uart.o [1]
+  .rodata            const    0x1ffe'22a0    0x34  fsl_clock.o [1]
+  .text              ro code  0x1ffe'22d4    0x30  julia_main.o [1]
+  .rodata            const    0x1ffe'2304    0x2c  fsl_assert.o [1]
+  .text              ro code  0x1ffe'2330    0x2c  copy_init3.o [3]
+  .rodata            const    0x1ffe'235c    0x28  fsl_uart.o [1]
+  .text              ro code  0x1ffe'2384    0x28  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'23ac    0x28  data_init.o [3]
+  .iar.init_table    const    0x1ffe'23d4    0x24  - Linker created -
+  .rodata            const    0x1ffe'23f8    0x20  fsl_clock.o [1]
+  .rodata            const    0x1ffe'2418    0x20  fsl_clock.o [1]
+  .text              ro code  0x1ffe'2438    0x1e  cmain.o [3]
+  .text              ro code  0x1ffe'2456     0x4  low_level_init.o [2]
+  .text              ro code  0x1ffe'245a     0x4  exit.o [2]
+  .text              ro code  0x1ffe'245e     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2460     0xa  cexit.o [3]
+  .text              ro code  0x1ffe'246a     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'246c    0x14  exit.o [4]
+  .rodata            const    0x1ffe'2480    0x1c  board.o [1]
+  .rodata            const    0x1ffe'249c    0x1c  fsl_clock.o [1]
+  .rodata            const    0x1ffe'24b8    0x1c  fsl_clock.o [1]
+  .rodata            const    0x1ffe'24d4    0x1c  fsl_clock.o [1]
+  .rodata            const    0x1ffe'24f0    0x1c  fsl_clock.o [1]
+  .rodata            const    0x1ffe'250c    0x1c  fsl_clock.o [1]
+  .rodata            const    0x1ffe'2528    0x1c  fsl_uart.o [1]
+  .rodata            const    0x1ffe'2544    0x18  board.o [1]
+  .rodata            const    0x1ffe'255c    0x18  board.o [1]
+  .rodata            const    0x1ffe'2574    0x18  fsl_clock.o [1]
+  .rodata            const    0x1ffe'258c    0x18  fsl_clock.o [1]
+  .rodata            const    0x1ffe'25a4    0x18  fsl_clock.o [1]
+  .rodata            const    0x1ffe'25bc    0x18  fsl_clock.o [1]
+  .rodata            const    0x1ffe'25d4    0x14  fsl_uart.o [1]
+  .rodata            const    0x1ffe'25e8    0x14  fsl_uart.o [1]
+  .rodata            const    0x1ffe'25fc    0x14  fsl_uart.o [1]
+  .rodata            const    0x1ffe'2610    0x10  board.o [1]
+  .rodata            const    0x1ffe'2620    0x10  clock_config.o [1]
+  .rodata            const    0x1ffe'2630    0x10  clock_config.o [1]
+  .rodata            const    0x1ffe'2640    0x10  clock_config.o [1]
+  .rodata            const    0x1ffe'2650    0x10  fsl_debug_console.o [1]
+  .rodata            const    0x1ffe'2660    0x10  julia_main.o [1]
+  .rodata            const    0x1ffe'2670     0xc  clock_config.o [1]
+  .rodata            const    0x1ffe'267c     0xc  clock_config.o [1]
+  .rodata            const    0x1ffe'2688     0xc  clock_config.o [1]
+  .rodata            const    0x1ffe'2694     0xc  fsl_log.o [1]
+  .text              ro code  0x1ffe'26a0     0xc  cstartup_M.o [3]
+  .rodata            const    0x1ffe'26ac     0x8  board.o [1]
+  .rodata            const    0x1ffe'26b4     0x8  fsl_clock.o [1]
+  .rodata            const    0x1ffe'26bc     0x8  fsl_io.o [1]
+  .rodata            const    0x1ffe'26c4     0x8  fsl_log.o [1]
+  .rodata            const    0x1ffe'26cc     0x8  fsl_uart.o [1]
+  .rodata            const    0x1ffe'26d4     0x8  fsl_uart.o [1]
+  .text              ro code  0x1ffe'26dc     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'26e4     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'26ec     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'26f4     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'26fc     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2704     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'270c     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2714     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'271c     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2724     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'272c     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2734     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'273c     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2744     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'274c     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2754     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'275c     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2764     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'276c     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2774     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'277c     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2784     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'278c     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'2794     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'279c     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'27a4     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'27ac     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'27b4     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'27bc     0x8  startup_MIMX8MQ6_cm4.o [1]
+  .rodata            const    0x1ffe'27c4     0x4  board.o [1]
+  .text              ro code  0x1ffe'27c8     0x4  startup_MIMX8MQ6_cm4.o [1]
+  Initializer bytes  const    0x1ffe'27cc     0x4  <for RW-1>
+  .text              ro code  0x1ffe'27d0     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'27d2     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'27d4     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .text              ro code  0x1ffe'27d6     0x2  startup_MIMX8MQ6_cm4.o [1]
+  .rodata            const    0x1ffe'27d8     0x0  zero_init3.o [3]
+  .rodata            const    0x1ffe'27d8     0x0  copy_init3.o [3]
+                            - 0x1ffe'27d8  0x2598
+
+"P2-P3", part 1 of 2:                         0x4
+  RW                          0x2000'0000     0x4  <Block>
+    RW-1                      0x2000'0000     0x4  <Init block>
+      .data          inited   0x2000'0000     0x4  system_MIMX8MQ6_cm4.o [1]
+                            - 0x2000'0004     0x4
+
+"P2-P3", part 2 of 2:                        0x1c
+  ZI                          0x2000'0004    0x1c  <Block>
+    .bss             zero     0x2000'0004     0x8  fsl_io.o [1]
+    .bss             zero     0x2000'000c    0x10  fsl_uart.o [1]
+    .bss             zero     0x2000'001c     0x4  fsl_uart.o [1]
+                            - 0x2000'0020    0x1c
+
+"P5":                                       0x400
+  CSTACK                      0x2001'fc00   0x400  <Block>
+    CSTACK           uninit   0x2001'fc00   0x400  <Block tail>
+                            - 0x2002'0000   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+  0x1ffe'27d8  0x1fff'ffff  0x1'd828
+  0x2000'0020  0x2001'fbff  0x1'fbe0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1c:
+          0x2000'0004  0x1c
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+          0x1ffe'27cc   0x4
+    1 destination range, total size 0x4:
+          0x2000'0000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj: [1]
+    board.o                     496      364
+    clock_config.o              264       88
+    fsl_assert.o                 28       44
+    fsl_clock.o               1 984      456
+    fsl_debug_console.o         206      124
+    fsl_io.o                    252      108        8
+    fsl_log.o                   206      120
+    fsl_str.o                   784
+    fsl_uart.o                1 500      392       20
+    julia_main.o                 48       16
+    pin_mux.o                   156
+    startup_MIMX8MQ6_cm4.o      870
+    system_MIMX8MQ6_cm4.o       760        4        4
+    -------------------------------------------------
+    Total:                    7 554    1 716       32
+
+dl7M_tln.a: [2]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [3]
+    ABImemclr4.o                  6
+    ABImemset48.o                50
+    I64DivMod.o                 560
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 44
+    cstartup_M.o                 12
+    data_init.o                  40
+    strlen.o                     54
+    zero_init3.o                 58
+    -------------------------------------------------
+    Total:                      866
+
+shb_l.a: [4]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Linker created                        36    1 024
+-----------------------------------------------------
+    Grand Total:              8 448    1 752    1 056
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base   0x1ffe'23d4          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x1ffe'23f8          --   Gb  - Linker created -
+?main                   0x1ffe'2439         Code  Gb  cmain.o [3]
+BOARD_BootClockRUN      0x1ffe'1d7f   0xbe  Code  Gb  clock_config.o [1]
+BOARD_InitDebugConsole  0x1ffe'1bb5   0x12  Code  Gb  board.o [1]
+BOARD_InitMemory        0x1ffe'1bc7   0xcc  Code  Gb  board.o [1]
+BOARD_InitPins          0x1ffe'1ea5   0x56  Code  Gb  pin_mux.o [1]
+BOARD_RdcInit           0x1ffe'1c93   0x62  Code  Gb  board.o [1]
+CLOCK_ControlGate       0x1ffe'1b7d    0x8  Code  Lc  board.o [1]
+CLOCK_DeinitAudioPll1   0x1ffe'0391    0xe  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitAudioPll2   0x1ffe'03f1   0x10  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitSysPll3     0x1ffe'057b   0x10  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitVedioPll1   0x1ffe'0453   0x10  Code  Gb  fsl_clock.o [1]
+CLOCK_EnableAnalogClock
+                        0x1ffe'02a5   0x1c  Code  Lc  fsl_clock.o [1]
+CLOCK_EnableClock       0x1ffe'0949   0x34  Code  Gb  fsl_clock.o [1]
+CLOCK_GetPllRefClkFreq  0x1ffe'02c1   0x86  Code  Gb  fsl_clock.o [1]
+CLOCK_InitAudioPll1     0x1ffe'0347   0x4a  Code  Gb  fsl_clock.o [1]
+CLOCK_InitAudioPll2     0x1ffe'039f   0x52  Code  Gb  fsl_clock.o [1]
+CLOCK_InitFracPll       0x1ffe'058b  0x112  Code  Gb  fsl_clock.o [1]
+CLOCK_InitOSC25M        0x1ffe'0881   0x54  Code  Gb  fsl_clock.o [1]
+CLOCK_InitOSC27M        0x1ffe'08ed   0x54  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSSCGPll       0x1ffe'06ad  0x166  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSysPll1       0x1ffe'0463   0x5e  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSysPll2       0x1ffe'04c1   0x5c  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSysPll3       0x1ffe'051d   0x5e  Code  Gb  fsl_clock.o [1]
+CLOCK_InitVideoPll1     0x1ffe'0401   0x52  Code  Gb  fsl_clock.o [1]
+CLOCK_IsPllLocked       0x1ffe'0299    0xc  Code  Lc  fsl_clock.o [1]
+CLOCK_PowerDownPll      0x1ffe'0241   0x1c  Code  Lc  fsl_clock.o [1]
+CLOCK_SetPllBypass      0x1ffe'025d   0x3c  Code  Lc  fsl_clock.o [1]
+CLOCK_SetRootDivider    0x1ffe'0821   0x54  Code  Gb  fsl_clock.o [1]
+CLOCK_SetRootMux        0x1ffe'1d6d   0x12  Code  Lc  clock_config.o [1]
+CSTACK$$Base            0x2001'fc00          --   Gb  - Linker created -
+CSTACK$$Limit           0x2002'0000          --   Gb  - Linker created -
+ConvertRadixNumToString
+                        0x1ffe'0bfb   0xc0  Code  Lc  fsl_str.o [1]
+DbgConsole_Getchar      0x1ffe'0a9d    0xe  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Init         0x1ffe'0a1d   0x30  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Printf       0x1ffe'0a55   0x3c  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Putchar      0x1ffe'0a91    0xc  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_RelocateLog  0x1ffe'0aad   0x3e  Code  Lc  fsl_debug_console.o [1]
+GetFracPllFreq          0x1ffe'18cf   0xd2  Code  Gb  system_MIMX8MQ6_cm4.o [1]
+GetSSCGPllFreq          0x1ffe'19a1  0x10e  Code  Gb  system_MIMX8MQ6_cm4.o [1]
+IOMUXC_SetPinConfig     0x1ffe'1e95   0x10  Code  Lc  pin_mux.o [1]
+IOMUXC_SetPinMux        0x1ffe'1e75   0x20  Code  Lc  pin_mux.o [1]
+IO_Init                 0x1ffe'0f55   0x68  Code  Gb  fsl_io.o [1]
+IO_Transfer             0x1ffe'0fbd   0x40  Code  Gb  fsl_io.o [1]
+LOG_Init                0x1ffe'0b25   0x20  Code  Gb  fsl_log.o [1]
+LOG_Pop                 0x1ffe'0b69   0x32  Code  Gb  fsl_log.o [1]
+LOG_Push                0x1ffe'0b45   0x24  Code  Gb  fsl_log.o [1]
+LOG_ReadCharacter       0x1ffe'0b9b   0x2e  Code  Gb  fsl_log.o [1]
+LOG_ReadOneCharacter    0x1ffe'0bd9   0x1a  Code  Lc  fsl_log.o [1]
+RDC_SetMasterDomainAssignment
+                        0x1ffe'1b85   0x30  Code  Lc  board.o [1]
+RW$$Base                0x2000'0000          --   Gb  - Linker created -
+RW$$Limit               0x2000'0004          --   Gb  - Linker created -
+Region$$Table$$Base     0x1ffe'23d4          --   Gb  - Linker created -
+Region$$Table$$Limit    0x1ffe'23f8          --   Gb  - Linker created -
+StrFormatPrintf         0x1ffe'0cbb  0x250  Code  Gb  fsl_str.o [1]
+SystemCoreClock         0x2000'0000    0x4  Data  Gb  system_MIMX8MQ6_cm4.o [1]
+SystemCoreClockUpdate   0x1ffe'1aaf   0xa2  Code  Gb  system_MIMX8MQ6_cm4.o [1]
+SystemInit              0x1ffe'1885   0x4a  Code  Gb  system_MIMX8MQ6_cm4.o [1]
+UART1_DriverIRQHandler  0x1ffe'15d9   0x14  Code  Gb  fsl_uart.o [1]
+UART2_DriverIRQHandler  0x1ffe'15ed   0x14  Code  Gb  fsl_uart.o [1]
+UART3_DriverIRQHandler  0x1ffe'1601   0x14  Code  Gb  fsl_uart.o [1]
+UART4_DriverIRQHandler  0x1ffe'1615   0x14  Code  Gb  fsl_uart.o [1]
+UART_ClearStatusFlag    0x1ffe'14d1   0x1a  Code  Gb  fsl_uart.o [1]
+UART_Disable            0x1ffe'1099    0xe  Code  Lc  fsl_uart.o [1]
+UART_Enable             0x1ffe'108b    0xe  Code  Lc  fsl_uart.o [1]
+UART_EnableAutoBaudRate
+                        0x1ffe'1133   0x30  Code  Lc  fsl_uart.o [1]
+UART_EnableRx           0x1ffe'0f31   0x24  Code  Lc  fsl_io.o [1]
+UART_EnableTx           0x1ffe'0f0d   0x24  Code  Lc  fsl_io.o [1]
+UART_GetDefaultConfig   0x1ffe'12b5   0x44  Code  Gb  fsl_uart.o [1]
+UART_GetInstance        0x1ffe'1163   0x36  Code  Gb  fsl_uart.o [1]
+UART_Init               0x1ffe'1199  0x11c  Code  Gb  fsl_uart.o [1]
+UART_ReadBlocking       0x1ffe'1527   0x86  Code  Gb  fsl_uart.o [1]
+UART_ReadByte           0x1ffe'10af    0x6  Code  Lc  fsl_uart.o [1]
+UART_SetBaudRate        0x1ffe'12f9  0x1d8  Code  Gb  fsl_uart.o [1]
+UART_SetRxFifoWatermark
+                        0x1ffe'10f9   0x3a  Code  Lc  fsl_uart.o [1]
+UART_SetTxFifoWatermark
+                        0x1ffe'10b5   0x44  Code  Lc  fsl_uart.o [1]
+UART_SoftwareReset      0x1ffe'1075   0x16  Code  Lc  fsl_uart.o [1]
+UART_WriteBlocking      0x1ffe'14eb   0x3c  Code  Gb  fsl_uart.o [1]
+UART_WriteByte          0x1ffe'10a7    0x8  Code  Lc  fsl_uart.o [1]
+ZI$$Base                0x2000'0004          --   Gb  - Linker created -
+ZI$$Limit               0x2000'0020          --   Gb  - Linker created -
+__CACHE_REGION_SIZE {Abs}
+                                0x0         Data  Gb  <internal module>
+__CACHE_REGION_START {Abs}
+                        0x1ffe'0000         Data  Gb  <internal module>
+__Vectors               0x1ffe'0000          --   Gb  startup_MIMX8MQ6_cm4.o [1]
+__Vectors_End           0x1ffe'0240         Data  Gb  startup_MIMX8MQ6_cm4.o [1]
+__Vectors_Size {Abs}          0x240          --   Gb  startup_MIMX8MQ6_cm4.o [1]
+__aeabi_assert          0x1ffe'0a01   0x1c  Code  Gb  fsl_assert.o [1]
+__aeabi_ldiv0           0x1ffe'1881         Code  Gb  I64DivZer.o [3]
+__aeabi_memclr4         0x1ffe'0bf5         Code  Gb  ABImemclr4.o [3]
+__aeabi_uldivmod        0x1ffe'1651         Code  Gb  I64DivMod.o [3]
+__cmain                 0x1ffe'2439         Code  Gb  cmain.o [3]
+__exit                  0x1ffe'246d   0x14  Code  Gb  exit.o [4]
+__iar_Memset4_word      0x1ffe'1009         Code  Gb  ABImemset48.o [3]
+__iar_Memset8_word      0x1ffe'1009         Code  Gb  ABImemset48.o [3]
+__iar_copy_init3        0x1ffe'2331   0x2c  Code  Gb  copy_init3.o [3]
+__iar_data_init3        0x1ffe'23ad   0x28  Code  Gb  data_init.o [3]
+__iar_program_start     0x1ffe'26a1         Code  Gb  cstartup_M.o [3]
+__iar_zero_init3        0x1ffe'0aeb   0x3a  Code  Gb  zero_init3.o [3]
+__low_level_init        0x1ffe'2457    0x4  Code  Gb  low_level_init.o [2]
+__vector_table          0x1ffe'0000         Data  Gb  startup_MIMX8MQ6_cm4.o [1]
+__vector_table_0x1c     0x1ffe'001c         Data  Gb  startup_MIMX8MQ6_cm4.o [1]
+_call_main              0x1ffe'2445         Code  Gb  cmain.o [3]
+_exit                   0x1ffe'2461         Code  Gb  cexit.o [3]
+_main                   0x1ffe'2453         Code  Gb  cmain.o [3]
+exit                    0x1ffe'245b    0x4  Code  Gb  exit.o [2]
+g_audioPll1Config       0x1ffe'2670    0xc  Data  Gb  clock_config.o [1]
+g_audioPll2Config       0x1ffe'267c    0xc  Data  Gb  clock_config.o [1]
+g_osc25MConfig          0x1ffe'0f0a    0x2  Data  Gb  clock_config.o [1]
+g_osc27MConfig          0x1ffe'0bf2    0x2  Data  Gb  clock_config.o [1]
+g_sysPll1Config         0x1ffe'2620   0x10  Data  Gb  clock_config.o [1]
+g_sysPll2Config         0x1ffe'2630   0x10  Data  Gb  clock_config.o [1]
+g_sysPll3Config         0x1ffe'2640   0x10  Data  Gb  clock_config.o [1]
+g_videoPll1Config       0x1ffe'2688    0xc  Data  Gb  clock_config.o [1]
+main                    0x1ffe'22d5   0x30  Code  Gb  julia_main.o [1]
+s_debugConsoleIO        0x2000'0004    0x8  Data  Lc  fsl_io.o [1]
+s_uartBases             0x1ffe'25e8   0x14  Data  Lc  fsl_uart.o [1]
+s_uartClock             0x1ffe'25fc   0x14  Data  Lc  fsl_uart.o [1]
+s_uartHandle            0x2000'000c   0x10  Data  Lc  fsl_uart.o [1]
+s_uartIsr               0x2000'001c    0x4  Data  Lc  fsl_uart.o [1]
+strlen                  0x1ffe'103d         Code  Gb  strlen.o [3]
+
+
+[1] = C:\Users\warri\Desktop\Julia_micro\Julia_Micro_Nitrogen8m\boards\evkmimx8mq\demo_apps\julia_main\iar\debug\obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  8 448 bytes of readonly  code memory
+  1 752 bytes of readonly  data memory
+  1 056 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

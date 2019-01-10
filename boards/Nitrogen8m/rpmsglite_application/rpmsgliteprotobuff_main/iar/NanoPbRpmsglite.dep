@@ -1,0 +1,2168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2213412810</fileChecksum>
+    <configuration>
+        <name>ddr_debug</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>ddr_release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpio.h</file>
+            <file>$PROJ_DIR$\..\pin_mux.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_i2c.h</file>
+            <file>$PROJ_DIR$\..\board.h</file>
+            <file>$PROJ_DIR$\..\readme.txt</file>
+            <file>$PROJ_DIR$\..\clock_config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpt.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_common.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_mu.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_mu.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_pwm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_pwm.h</file>
+            <file>$PROJ_DIR$\..\fsl_iomuxc.h</file>
+            <file>$PROJ_DIR$\..\board.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_clock.h</file>
+            <file>$PROJ_DIR$\..\pin_mux.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\..\clock_config.h</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_lite.o</file>
+            <file>$PROJ_DIR$\debug\obj\pb_encode.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpt.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_pwm.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_clock.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\system_MIMX8MQ6_cm4.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\llist.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\clock_config.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\board.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_env_bm.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\pin_mux.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\pin_mux.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\pb_common.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_common.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\board.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_rdc.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_common.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\clock_config.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\pb_decode.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_debug_console.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_queue.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\pb_common.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsgnymble.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_mu.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_i2c.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_platform.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_pwm.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\debug\obj\main.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_uart.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\MIMX8MQ6_cm4_features.h</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_queue.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\pb_decode.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\mpu_armv7.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\debug\obj\main.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_str.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_pwm.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_ns.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_log.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\debug\obj\virtqueue.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_queue.o</file>
+            <file>$PROJ_DIR$\debug\obj\pb_common.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_ns.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_env_bm.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_debug_console.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\virtqueue.o</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsgnymble.o</file>
+            <file>$PROJ_DIR$\debug\obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_io.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_assert.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_env_bm.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_ns.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_lite.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\virtqueue.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_platform.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_str.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\pb_encode.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_log.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_uart.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_config.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_common.c</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_queue.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_lite.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_rdc.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\virtio\virtqueue.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_uart.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_decode.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\porting\platform\imx8mq_m4\rpmsg_platform.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_ns.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_default_config.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\virtqueue.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_queue.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\virtio_ring.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_encode.c</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\RpmsgNymble\rpmsgnymble.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\porting\environment\rpmsg_env_bm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_rdc.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\platform\imx8mq_m4\rpmsg_platform.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_common.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_ns.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\common\llist.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_env.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\RpmsgNymble\rpmsgnymble.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_lite.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\llist.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_decode.c</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_encode.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpt.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\fsl_device_registers.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsgnymble.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_i2c.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_io.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\debug\obj\startup_MIMX8MQ6_cm4.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\MIMX8MQ6_cm4.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_assert.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_log.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\system_MIMX8MQ6_cm4.o</file>
+            <file>$PROJ_DIR$\debug\obj\clock_config.o</file>
+            <file>$PROJ_DIR$\debug\NanoPbRpmsglite.bin</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_mu.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_str.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_clock.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\debug\obj\board.o</file>
+            <file>$PROJ_DIR$\debug\obj\pb_encode.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cm4.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpio.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\debug\obj\pin_mux.o</file>
+            <file>$PROJ_DIR$\debug\obj\llist.o</file>
+            <file>$PROJ_DIR$\..\main.c</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_lite.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_rdc.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_uart.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\pb_decode.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_assert.pbi</file>
+            <file>$PROJ_DIR$\debug\Julia_micro8m.out</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\iar\startup_MIMX8MQ6_cm4.s</file>
+            <file>$PROJ_DIR$\debug\obj\rpmsg_platform.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\str\fsl_str.c</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_clock.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\str\fsl_str.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\io\fsl_io.h</file>
+            <file>$PROJ_DIR$\debug\obj\system_MIMX8MQ6_cm4.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_mu.o</file>
+            <file>$PROJ_DIR$\debug\obj\llist.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_common.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\log\fsl_log.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_io.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_assert.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\io\fsl_io.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\system_MIMX8MQ6_cm4.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\log\fsl_log.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\system_MIMX8MQ6_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_debug_console.h</file>
+            <file>$PROJ_DIR$\debug\obj\NanoPbRpmsglite.pbd</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_i2c.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_rdc.pbi</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpt.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_debug_console_conf.h</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 155 129 137 79 149 135 127 133 156 57 67 153 18 130 65 144 61 183 148 11 64 143 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 154</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 133 81 127 149 135 79 129 155 137 156 57 67 153 11 130 65 18 144 61 183 148 64 143 56 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 186</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18 155 67 61 79 65 81 11 130 144 183 156 149 129 57 135 127 137 153 133 6 148 64 143 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 155 129 137 149 135 127 133 156 57 67 153 21 130 65 79 18 144 61 183 148 64 143 56 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65 67 57 18 155 153 129 130 79 81 135 127 137 133 156 11 149 144 61 183 148 64 143 56 4</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_mu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 174</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153 11 18 155 65 57 67 129 130 79 81 135 127 137 133 156 149 144 61 183 148 64 143 56 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_pwm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 144 79 81 183 56 130 149 148 64 65 18 155 67 61 143 11 156 129 57 135 127 137 153 133 15</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18 184 7 21 102 16 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18 155 153 16 65 57 67 149 7 130 79 81 135 127 137 133 11 184 102 3 156 129 144 61 183 148 64 143 56 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 157</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18 16 3 7 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61 149 155 11 67 129 81 143 3 156 144 183 148 64 56 18 16 130 65 79 57 135 127 137 153 133 7 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 176</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 148 64 149 156 144 81 183 56 129 155 67 61 143 130 65 79 18 57 135 127 137 153 133 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 127 149 135 79 129 155 137 156 57 67 153 11 130 65 18 144 61 183 133 104 148 64 143 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117 99 149 81 155 144 57 135 79 67 130 65 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65 155 57 67 99 79 135 81 149 130 144 127 117</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_queue.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101 79 81 155 144 57 135 67 109 149 111 120 60 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126 149 79 57 81 108 120 155 67 110 109 123 144 135 40 56 101 111 60 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\virtio\virtqueue.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109 149 81 155 144 57 135 111 120 60 67 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155 135 60 149 120 57 111 123 81 144 108 67 109</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\porting\platform\imx8mq_m4\rpmsg_platform.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156 81 155 144 57 135 60 67 65 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155 143 137 120 133 149 129 65 13 144 60 153 81 56 156 57 135 67 127 108 61 183 148 64 130 11 79 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_encode.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99 149 81 155 144 57 135 79 67 130 65 127 125 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130 155 81 117 144 127 99 125 149 67 79 65 57 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\porting\environment\rpmsg_env_bm.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120 60 81 155 144 57 135 67 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111 81 57 155 50 109 156 108 67 135 123 126 65 60 144 149 120 26 40 56 49 127</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_rdc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 161</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 187</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135 79 81 127 133 130 155 137 129 11 65 18 57 67 153 156 149 144 61 183 148 64 143 56 102</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_ns.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107 101 79 81 155 144 57 135 67 109 149 111 120 60 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79 126 120 67 155 57 149 81 108 101 109 123 144 135 40 56 107 111 60 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\common\llist.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 175</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\NymbleLibrary\RpmsgNymble\rpmsgnymble.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 81 155 144 57 135 67 50 49 65 127 101 79 109 149 111 120 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49 109 81 108 184 149 113 11 79 155 67 120 60 101 130 183 129 65 107 144 127 123 40 56 18 61 133 156 50 110 57 135 126 111 26 137 153 148 64 143</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_lite.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101 79 81 155 144 57 135 67 109 149 111 120 60 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155 135 120 67 81 108 79 126 57 149 40 56 101 109 123 144 111 60 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_decode.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99 149 81 155 144 57 135 79 67 130 65 127 105 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 67 105 149 99 117 130 144 155 127 79 65 57 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 137 153 149 81 155 144 57 135 133 148 143 56 64 183 61 184 11 156 130 65 67 127 79 18 7 21 3 113 60 50 49 101 109 111 120 108 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183 155 65 79 21 149 148 64 135 129 107 101 7 61 57 18 67 156 126 111 26 184 3 113 137 153 133 81 144 143 130 127 60 49 120 123 56 11 50 110 109 108 97 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\debug\Julia_micro8m.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 142</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\iar\startup_MIMX8MQ6_cm4.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 136</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\str\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53 81 155 144 57 135 66 50 67 49 171 11 156 130 149 65 127 79 129 137 153 133 148 143 56 64 183 61 18 189</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129 155 81 189 57 149 67 153 50 135 49 11 156 127 137 79 74 171 66 144 130 65 18 61 183 133 53 148 64 143 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 81 155 144 57 135 67 49 184 11 156 130 149 65 127 79 129 137 153 133 148 143 56 64 183 61 18 189 177 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155 18 127 137 177 81 65 133 129 184 144 49 11 130 79 67 153 156 50 189 171 57 135 149 61 183 148 64 143 56 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 164</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18 184</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155 67 79 149 61 129 81 143 156 144 183 148 64 56 184 130 65 18 57 135 127 137 153 133 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\io\fsl_io.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 172 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18 189 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155 153 156 57 67 104 149 129 81 135 127 137 133 130 189 11 65 79 18 144 61 183 148 64 143 56 172</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\system_MIMX8MQ6_cm4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149 81 155 144 57 135 129 137 153 133 148 143 56 64 183 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61 144 155 183 129 81 57 135 137 153 133 149 148 64 143 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\log\fsl_log.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177 11 156 81 155 144 57 135 130 149 65 67 127 79 129 137 153 133 148 143 56 64 183 61 18 189 172</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61 149 155 67 11 129 81 143 172 156 144 183 148 64 56 189 130 65 79 18 57 135 127 137 153 133 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_queue.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\virtio\virtqueue.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\porting\platform\imx8mq_m4\rpmsg_platform.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\porting\environment\rpmsg_env_bm.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_ns.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\NymbleLibrary\RpmsgNymble\rpmsgnymble.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_lite.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>release</name>
+        <outputs>
+            <file>$PROJ_DIR$\release\obj\clock_config.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpio.h</file>
+            <file>$PROJ_DIR$\..\pin_mux.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_i2c.h</file>
+            <file>$PROJ_DIR$\..\board.h</file>
+            <file>$PROJ_DIR$\..\readme.txt</file>
+            <file>$PROJ_DIR$\..\clock_config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpt.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_common.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_mu.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_mu.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_pwm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_pwm.h</file>
+            <file>$PROJ_DIR$\..\fsl_iomuxc.h</file>
+            <file>$PROJ_DIR$\..\board.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_clock.h</file>
+            <file>$PROJ_DIR$\..\pin_mux.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\..\clock_config.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\MIMX8MQ6_cm4_features.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\mpu_armv7.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_uart.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_config.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_common.c</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_queue.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_lite.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_rdc.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\virtio\virtqueue.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_uart.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_decode.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\porting\platform\imx8mq_m4\rpmsg_platform.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_ns.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_default_config.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\virtqueue.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_queue.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\virtio_ring.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_encode.c</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\RpmsgNymble\rpmsgnymble.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\porting\environment\rpmsg_env_bm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_rdc.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\platform\imx8mq_m4\rpmsg_platform.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_common.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_ns.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\common\llist.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_env.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\RpmsgNymble\rpmsgnymble.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_lite.c</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\llist.h</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_decode.c</file>
+            <file>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_encode.h</file>
+            <file>$PROJ_DIR$\..\rpmsg_lite\lib\include\rpmsg_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\fsl_device_registers.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\cmsis_version.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\MIMX8MQ6_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cm4.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\..\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\iar\startup_MIMX8MQ6_cm4.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\str\fsl_str.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\str\fsl_str.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\io\fsl_io.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\log\fsl_log.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_assert.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\io\fsl_io.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\system_MIMX8MQ6_cm4.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\log\fsl_log.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\system_MIMX8MQ6_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_debug_console.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_debug_console_conf.h</file>
+            <file>$PROJ_DIR$\MIMX8MQ6xxxJZ_cm4_ram.icf</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\release\list\Julia_micro8m.map</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\release\obj\fsl_assert.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_debug_console.pbi</file>
+            <file>$PROJ_DIR$\release\obj\virtqueue.pbi</file>
+            <file>$PROJ_DIR$\release\obj\board.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_clock.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_gpio.pbi</file>
+            <file>$PROJ_DIR$\release\obj\pin_mux.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_gpt.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_uart.pbi</file>
+            <file>$PROJ_DIR$\release\obj\pb_encode.pbi</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_ns.pbi</file>
+            <file>$PROJ_DIR$\release\obj\main.pbi</file>
+            <file>$PROJ_DIR$\release\obj\system_MIMX8MQ6_cm4.pbi</file>
+            <file>$PROJ_DIR$\release\obj\llist.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_log.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_str.pbi</file>
+            <file>$PROJ_DIR$\release\obj\clock_config.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_queue.pbi</file>
+            <file>$PROJ_DIR$\release\obj\pin_mux.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\pb_common.pbi</file>
+            <file>$PROJ_DIR$\release\obj\rpmsgnymble.pbi</file>
+            <file>$PROJ_DIR$\release\obj\pb_decode.pbi</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_platform.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_common.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_i2c.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_mu.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_io.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_pwm.pbi</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_env_bm.pbi</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_lite.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_rdc.pbi</file>
+            <file>$PROJ_DIR$\..\Interfaces\targetdevice.h</file>
+            <file>$PROJ_DIR$\..\Interfaces\mcu.pb.c</file>
+            <file>$PROJ_DIR$\..\Interfaces\targetdevice.c</file>
+            <file>$PROJ_DIR$\..\Interfaces\mcu.pb.h</file>
+            <file>$PROJ_DIR$\release\obj\pb_common.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\release\obj\board.pbi</file>
+            <file>$PROJ_DIR$\release\obj\pb_decode.o</file>
+            <file>$PROJ_DIR$\release\obj\rpmsgnymble.o</file>
+            <file>$PROJ_DIR$\release\obj\system_MIMX8MQ6_cm4.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_assert.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_gpt.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_mu.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_common.o</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_lite.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_uart.o</file>
+            <file>$PROJ_DIR$\release\obj\pin_mux.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_platform.o</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_ns.o</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_queue.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_io.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_pwm.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_log.o</file>
+            <file>$PROJ_DIR$\release\obj\clock_config.pbi</file>
+            <file>$PROJ_DIR$\release\obj\fsl_i2c.o</file>
+            <file>$PROJ_DIR$\release\obj\llist.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_rdc.o</file>
+            <file>$PROJ_DIR$\release\obj\main.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_str.o</file>
+            <file>$PROJ_DIR$\release\obj\virtqueue.o</file>
+            <file>$PROJ_DIR$\release\obj\startup_MIMX8MQ6_cm4.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_clock.o</file>
+            <file>$PROJ_DIR$\release\obj\pb_encode.o</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_env_bm.o</file>
+            <file>$PROJ_DIR$\release\obj\targetdevice.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\mcu.pb.o</file>
+            <file>$PROJ_DIR$\release\obj\mcu.pb.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\mcu.pb.pbi</file>
+            <file>$PROJ_DIR$\release\obj\targetdevice.pbi</file>
+            <file>$PROJ_DIR$\release\obj\targetdevice.o</file>
+            <file>$PROJ_DIR$\release\obj\board.o</file>
+            <file>$PROJ_DIR$\release\obj\fsl_common.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_pwm.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\rpmsgnymble.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_env_bm.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_queue.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_rdc.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\pb_common.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_clock.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_gpt.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_mu.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\pb_decode.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\pb_encode.__cstat.et</file>
+            <file>$PROJ_DIR$\release\NanoPbRpmsglite.bin</file>
+            <file>$PROJ_DIR$\release\obj\llist.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_ns.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_lite.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_assert.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\rpmsg_platform.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_log.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\virtqueue.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_str.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\system_MIMX8MQ6_cm4.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Julia_micro8m.out</file>
+            <file>$PROJ_DIR$\release\obj\fsl_io.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\fsl_debug_console.__cstat.et</file>
+            <file>$PROJ_DIR$\release\obj\NanoPbRpmsglite.pbd</file>
+            <file>$PROJ_DIR$\release\obj\main.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 71 37 79 81 35 31 82 77 94 19 72 33 29 74 70 75 80 73 78 12 32 76 28</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 176</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82 77 38 94 37 79 71 81 35 31 12 72 33 19 29 74 70 75 80 73 78 32 76 28 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 19 81 37 33 29 35 12 72 74 38 70 75 82 79 71 77 31 94 7 73 78 32 76 28</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 71 79 81 35 31 82 77 94 22 72 33 37 19 29 74 70 75 80 73 78 32 76 28 12</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_gpt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19 79 12 33 77 38 94 71 72 37 81 35 31 82 29 74 70 75 80 73 78 32 76 28 5</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_mu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 33 38 94 19 79 71 12 72 37 81 35 31 82 29 74 70 75 80 73 78 32 76 28 14</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_pwm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70 37 73 74 72 38 81 75 76 33 19 29 35 80 78 32 79 28 12 82 71 77 31 94 16</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 174</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19 95 8 22 45 17 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19 79 17 33 77 38 94 8 72 37 81 35 31 95 45 4 82 71 29 74 70 75 80 73 78 32 76 28 12 22</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19 17 4 8 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79 80 12 81 78 32 71 29 35 28 4 82 74 38 70 75 73 76 19 17 72 33 37 77 31 94 8 22</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 175</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 75 76 81 82 74 70 73 71 79 29 35 80 78 32 28 72 33 37 19 77 31 94 12</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 200 99</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37 82 77 38 94 79 71 81 35 31 12 72 33 19 29 74 70 75 80 47 73 78 32 76 28</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 184</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 42 79 38 81 77 29 74 37 35 72 33 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33 81 29 35 42 37 74 38 79 72 77 70 60</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 182</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 37 38 81 77 29 74 35 52 79 54 63 30 51 40 59 66 69 24 28 23 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54 69 81 37 63 30 53 52 66 38 35 77 59 24 28 44 29 74 79 51 40 23</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\virtio\virtqueue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 197</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 79 38 81 77 29 74 54 63 30 35 51 40 59 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 74 30 79 63 29 59 54 66 38 77 51 35 52 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\porting\platform\imx8mq_m4\rpmsg_platform.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 195</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82 38 81 77 29 74 30 35 33 70 59 63 51 40 71 75 80 79 73 78 76 28 32 94 31 14 12 72 37 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 38 40 28 63 51 31 79 71 33 14 77 94 76 82 30 59 29 74 35 70 75 80 73 78 32 72 12 37 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_encode.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 79 38 81 77 29 74 37 35 72 33 70 68 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72 81 38 60 77 70 42 68 79 35 37 33 29 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\porting\environment\rpmsg_env_bm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 180</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 30 38 81 77 29 74 35 51 40 59 52 79 54 66 69 24 28 23 26 25 33 70 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70 66 77 30 81 26 38 52 82 59 54 69 33 51 35 29 74 40 79 63 24 28 25 23</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\drivers\fsl_rdc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 160</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 183</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19 79 33 77 38 94 71 12 72 37 81 35 31 82 29 74 70 75 80 73 78 32 76 28 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_ns.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 192</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 44 37 38 81 77 29 74 35 52 79 54 63 30 51 40 59 66 69 24 28 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63 81 30 37 69 54 44 52 66 38 35 77 59 24 28 50 29 74 79 51 40 23</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\common\llist.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 191</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\NymbleLibrary\RpmsgNymble\rpmsgnymble.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 38 81 77 29 74 35 26 25 33 70 44 37 52 79 54 63 51 40 59 66 69 24 28 23 56 53 50 8 22 19 71 75 80 73 78 76 32 94 31 72 82 95 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 25 52 79 71 95 38 51 56 81 35 63 40 53 94 33 50 77 70 66 23 44 8 19 37 31 29 74 69 54 30 59 24 28 22 72 82 75 80 73 78 32 76 12</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rpmsg_lite\lib\rpmsg_lite\rpmsg_lite.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 193</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 37 38 81 77 29 74 35 52 79 54 63 30 51 40 59 66 69 24 28 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 51 63 81 74 35 40 37 69 29 79 23 59 52 66 77 54 30 24 28 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\NymbleLibrary\NanoPb\pb_decode.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 188</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 79 38 81 77 29 74 37 35 72 33 70 48 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 35 48 79 42 60 72 77 81 70 37 33 29 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 161</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 204</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71 75 80 79 38 81 77 29 74 73 78 76 28 32 94 31 95 12 82 72 33 35 70 37 19 8 22 4 56 30 26 25 44 52 54 63 51 40 59 66 69 24 23 53 50 133 136 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 33 59 78 32 79 69 22 81 38 35 82 54 8 133 75 73 76 71 50 37 24 28 95 4 56 31 94 77 12 70 72 30 25 63 66 42 29 74 19 26 44 53 52 51 40 23 136</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\iar\startup_MIMX8MQ6_cm4.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 164</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\str\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 162</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 198</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27 38 81 77 29 74 34 26 35 25 87 12 82 72 79 33 70 37 71 75 80 73 78 76 28 32 94 31 19 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79 38 35 96 29 81 71 94 26 74 25 12 82 31 37 36 87 34 77 72 33 19 70 75 80 27 73 78 32 76 28</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 202</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 38 81 77 29 74 35 25 95 12 82 72 79 33 70 37 71 75 80 73 78 76 28 32 94 31 19 96 89 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 29 35 82 78 32 79 89 81 28 71 95 74 38 70 75 73 76 26 96 87 77 25 12 72 33 37 19 31 94 36</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 194</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 75 76 37 81 82 74 70 73 79 71 29 35 80 78 32 28 95 72 33 19 77 31 94 12</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\io\fsl_io.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 154</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 201</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19 96 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73 37 70 12 74 82 72 38 81 75 76 47 33 19 29 35 80 78 32 79 28 71 96 77 31 94 88</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\system_MIMX8MQ6_cm4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 199</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79 38 81 77 29 74 71 75 80 73 78 76 28 32 94 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29 75 81 38 74 80 71 77 31 94 79 73 78 32 76 28</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MIMX8MQ6\utilities\log\fsl_log.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 12 82 38 81 77 29 74 72 79 33 35 70 37 71 75 80 73 78 76 28 32 94 31 19 96 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 81 35 37 31 72 79 88 33 19 77 94 12 96 82 71 29 74 70 75 80 73 78 32 76 28 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Interfaces\mcu.pb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 170</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136 42 79 38 81 77 29 74 37 35 72 33 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33 81 29 35 42 37 74 38 79 72 77 70 136</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Interfaces\targetdevice.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 168</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 38 81 77 29 74 133 79 136 42 37 72 33 70 60 68 48 56 30 26 25 44 52 54 63 51 40 59 66 69 24 28 23 53 50 8 22 19 71 75 80 73 78 76 32 94 31 82 95 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 79 73 35 71 95 81 33 69 44 60 136 50 37 63 30 82 80 48 77 56 25 59 24 28 22 72 75 76 133 68 38 29 74 70 26 53 8 52 66 54 51 40 23 19 31 94 78 32 12</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\release\Julia_micro8m.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 190</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 97 174 0 143 165 146 138 150 144 158 154 156 145 155 160 162 148 159 161 169 137 140 166 149 167 147 152 151 153 141 164 142 173 163 100 101 98</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>
